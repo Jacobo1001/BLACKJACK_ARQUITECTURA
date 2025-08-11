@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejecutar .exe desde HTML</title>
+</head>
+<body>
+    <h1>Ejecutar .exe desde HTML</h1>
+    <form id="myForm">
+        <label for="inputData">Ingrese datos:</label>
+        <input type="text" id="inputData" name="inputData">
+        <input type="hidden" id="exePath" name="exePath" value="C:/Users/jacob/Desktop/NUEVO PROYECTO POO/I_Juego/BlackJack/bin/Release/BlackJack.exe">
+        <button type="submit">Ejecutar .exe</button>
+    </form>
+    <div id="output"></div>
+
+    <script>
+        document.getElementById("myForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            var formData = new FormData(this);
+
+            fetch("run_exe.php", {
+                method: "POST",
+                body: formData
+            })
+            .then(response => response.text())
+            .then(result => {
+                document.getElementById("output").innerText = result;
+            })
+            .catch(error => console.error('Error:', error));
+        });
+    </script>
+</body>
+</html>

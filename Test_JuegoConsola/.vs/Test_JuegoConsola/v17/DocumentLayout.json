@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jacob\\Desktop\\NUEVO PROYECTO POO\\Test_JuegoConsola\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacob\\Desktop\\NUEVO PROYECTO POO\\B_JuegoCartas\\Biblioteca_Cartas\\Clases\\Juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14E103B0-E1AB-4C74-8A53-6972C4677C02}|Test_JuegoConsola\\Test_JuegoConsola.csproj|c:\\users\\jacob\\desktop\\nuevo proyecto poo\\test_juegoconsola\\test_juegoconsola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14E103B0-E1AB-4C74-8A53-6972C4677C02}|Test_JuegoConsola\\Test_JuegoConsola.csproj|solutionrelative:test_juegoconsola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Juego.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\NUEVO PROYECTO POO\\B_JuegoCartas\\Biblioteca_Cartas\\Clases\\Juego.cs",
+              "RelativeDocumentMoniker": "..\\B_JuegoCartas\\Biblioteca_Cartas\\Clases\\Juego.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\NUEVO PROYECTO POO\\B_JuegoCartas\\Biblioteca_Cartas\\Clases\\Juego.cs",
+              "RelativeToolTip": "..\\B_JuegoCartas\\Biblioteca_Cartas\\Clases\\Juego.cs",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAhwJ0AAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T04:28:41.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\NUEVO PROYECTO POO\\Test_JuegoConsola\\Test_JuegoConsola\\Program.cs",
+              "RelativeDocumentMoniker": "Test_JuegoConsola\\Program.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\NUEVO PROYECTO POO\\Test_JuegoConsola\\Test_JuegoConsola\\Program.cs",
+              "RelativeToolTip": "Test_JuegoConsola\\Program.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADkAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T20:35:11.901Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

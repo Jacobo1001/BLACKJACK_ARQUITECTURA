@@ -1,0 +1,10 @@
+C:\Users\jacob\Desktop\NUEVO PROYECTO POO\Test_JuegoConsola\Test_JuegoConsola\bin\Debug\Test_JuegoConsola.exe.config
+C:\Users\jacob\Desktop\NUEVO PROYECTO POO\Test_JuegoConsola\Test_JuegoConsola\bin\Debug\Test_JuegoConsola.exe
+C:\Users\jacob\Desktop\NUEVO PROYECTO POO\Test_JuegoConsola\Test_JuegoConsola\bin\Debug\Test_JuegoConsola.pdb
+C:\Users\jacob\Desktop\NUEVO PROYECTO POO\Test_JuegoConsola\Test_JuegoConsola\bin\Debug\Biblioteca_Cartas.dll
+C:\Users\jacob\Desktop\NUEVO PROYECTO POO\Test_JuegoConsola\Test_JuegoConsola\bin\Debug\Biblioteca_Cartas.pdb
+C:\Users\jacob\Desktop\NUEVO PROYECTO POO\Test_JuegoConsola\Test_JuegoConsola\obj\Debug\Test_JuegoConsola.csproj.AssemblyReference.cache
+C:\Users\jacob\Desktop\NUEVO PROYECTO POO\Test_JuegoConsola\Test_JuegoConsola\obj\Debug\Test_JuegoConsola.csproj.CoreCompileInputs.cache
+C:\Users\jacob\Desktop\NUEVO PROYECTO POO\Test_JuegoConsola\Test_JuegoConsola\obj\Debug\Test_Jue.C21CD750.Up2Date
+C:\Users\jacob\Desktop\NUEVO PROYECTO POO\Test_JuegoConsola\Test_JuegoConsola\obj\Debug\Test_JuegoConsola.exe
+C:\Users\jacob\Desktop\NUEVO PROYECTO POO\Test_JuegoConsola\Test_JuegoConsola\obj\Debug\Test_JuegoConsola.pdb

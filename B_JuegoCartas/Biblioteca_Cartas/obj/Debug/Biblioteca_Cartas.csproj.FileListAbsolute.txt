@@ -1,0 +1,6 @@
+C:\Users\jacob\Desktop\NUEVO PROYECTO POO\B_JuegoCartas\Biblioteca_Cartas\obj\Debug\Biblioteca_Cartas.csproj.AssemblyReference.cache
+C:\Users\jacob\Desktop\NUEVO PROYECTO POO\B_JuegoCartas\Biblioteca_Cartas\obj\Debug\Biblioteca_Cartas.csproj.CoreCompileInputs.cache
+C:\Users\jacob\Desktop\NUEVO PROYECTO POO\B_JuegoCartas\Biblioteca_Cartas\bin\Debug\Biblioteca_Cartas.dll
+C:\Users\jacob\Desktop\NUEVO PROYECTO POO\B_JuegoCartas\Biblioteca_Cartas\bin\Debug\Biblioteca_Cartas.pdb
+C:\Users\jacob\Desktop\NUEVO PROYECTO POO\B_JuegoCartas\Biblioteca_Cartas\obj\Debug\Biblioteca_Cartas.dll
+C:\Users\jacob\Desktop\NUEVO PROYECTO POO\B_JuegoCartas\Biblioteca_Cartas\obj\Debug\Biblioteca_Cartas.pdb

@@ -1,0 +1,166 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jacob\\Desktop\\SOLID\\I_Juego\\BlackJack\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26EA7C9F-8DEE-4212-8B03-2B8040620545}|BlackJack.csproj|c:\\users\\jacob\\desktop\\solid\\i_juego\\blackjack\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26EA7C9F-8DEE-4212-8B03-2B8040620545}|BlackJack.csproj|solutionrelative:inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26EA7C9F-8DEE-4212-8B03-2B8040620545}|BlackJack.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\I_Juego\\BlackJack\\finpartida_p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26EA7C9F-8DEE-4212-8B03-2B8040620545}|BlackJack.csproj|solutionrelative:finpartida_p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26EA7C9F-8DEE-4212-8B03-2B8040620545}|BlackJack.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\I_Juego\\BlackJack\\finpartida_g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26EA7C9F-8DEE-4212-8B03-2B8040620545}|BlackJack.csproj|solutionrelative:finpartida_g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26EA7C9F-8DEE-4212-8B03-2B8040620545}|BlackJack.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\I_Juego\\BlackJack\\inicio.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{26EA7C9F-8DEE-4212-8B03-2B8040620545}|BlackJack.csproj|solutionrelative:inicio.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26EA7C9F-8DEE-4212-8B03-2B8040620545}|BlackJack.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\I_Juego\\BlackJack\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26EA7C9F-8DEE-4212-8B03-2B8040620545}|BlackJack.csproj|solutionrelative:inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26EA7C9F-8DEE-4212-8B03-2B8040620545}|BlackJack.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\I_Juego\\BlackJack\\finpartida_p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26EA7C9F-8DEE-4212-8B03-2B8040620545}|BlackJack.csproj|solutionrelative:finpartida_p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26EA7C9F-8DEE-4212-8B03-2B8040620545}|BlackJack.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\I_Juego\\BlackJack\\finpartida_g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26EA7C9F-8DEE-4212-8B03-2B8040620545}|BlackJack.csproj|solutionrelative:finpartida_g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26EA7C9F-8DEE-4212-8B03-2B8040620545}|BlackJack.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\I_Juego\\BlackJack\\apostar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26EA7C9F-8DEE-4212-8B03-2B8040620545}|BlackJack.csproj|solutionrelative:apostar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26EA7C9F-8DEE-4212-8B03-2B8040620545}|BlackJack.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\I_Juego\\BlackJack\\apostar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26EA7C9F-8DEE-4212-8B03-2B8040620545}|BlackJack.csproj|solutionrelative:apostar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Inicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\I_Juego\\BlackJack\\Inicio.cs",
+              "RelativeDocumentMoniker": "Inicio.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\I_Juego\\BlackJack\\Inicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Inicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:48:15.855Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Inicio.resx",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\I_Juego\\BlackJack\\Inicio.resx",
+              "RelativeDocumentMoniker": "Inicio.resx",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\I_Juego\\BlackJack\\Inicio.resx",
+              "RelativeToolTip": "Inicio.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-05-29T16:55:33.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Inicio.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\I_Juego\\BlackJack\\Inicio.cs",
+              "RelativeDocumentMoniker": "Inicio.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\I_Juego\\BlackJack\\Inicio.cs",
+              "RelativeToolTip": "Inicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T15:01:19.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FinPartida_P.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\I_Juego\\BlackJack\\FinPartida_P.cs",
+              "RelativeDocumentMoniker": "FinPartida_P.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\I_Juego\\BlackJack\\FinPartida_P.cs",
+              "RelativeToolTip": "FinPartida_P.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T15:01:06.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FinPartida_P.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\I_Juego\\BlackJack\\FinPartida_P.cs",
+              "RelativeDocumentMoniker": "FinPartida_P.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\I_Juego\\BlackJack\\FinPartida_P.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FinPartida_P.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T15:01:03.827Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FinPartida_G.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\I_Juego\\BlackJack\\FinPartida_G.cs",
+              "RelativeDocumentMoniker": "FinPartida_G.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\I_Juego\\BlackJack\\FinPartida_G.cs",
+              "RelativeToolTip": "FinPartida_G.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T15:00:51.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FinPartida_G.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\I_Juego\\BlackJack\\FinPartida_G.cs",
+              "RelativeDocumentMoniker": "FinPartida_G.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\I_Juego\\BlackJack\\FinPartida_G.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FinPartida_G.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T15:00:48.888Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Apostar.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\I_Juego\\BlackJack\\Apostar.cs",
+              "RelativeDocumentMoniker": "Apostar.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\I_Juego\\BlackJack\\Apostar.cs",
+              "RelativeToolTip": "Apostar.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T14:59:54.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Apostar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\I_Juego\\BlackJack\\Apostar.cs",
+              "RelativeDocumentMoniker": "Apostar.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\NUEVO PROYECTO POO\\I_Juego\\BlackJack\\Apostar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\NUEVO PROYECTO POO\\I_Juego\\BlackJack\\Apostar.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T14:59:51.741Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

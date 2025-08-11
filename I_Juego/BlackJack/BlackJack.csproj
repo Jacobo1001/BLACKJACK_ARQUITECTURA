@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{26EA7C9F-8DEE-4212-8B03-2B8040620545}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BlackJack</RootNamespace>
+    <AssemblyName>BlackJack</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\jacob\Desktop\NUEVO PROYECTO POO\Instalador_Juego\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>LOGO_BE.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>6D25C81C7FDA716E444B47C8491E658CBBC86E38</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>BlackJack_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Biblioteca_Cartas">
+      <HintPath>..\..\B_JuegoCartas\Biblioteca_Cartas\bin\Debug\Biblioteca_Cartas.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Apostar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apostar.Designer.cs">
+      <DependentUpon>Apostar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FinPartida_G.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinPartida_G.Designer.cs">
+      <DependentUpon>FinPartida_G.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FinPartida_P.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinPartida_P.Designer.cs">
+      <DependentUpon>FinPartida_P.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Juego_Baraja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Juego_Baraja.Designer.cs">
+      <DependentUpon>Juego_Baraja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Apostar.resx">
+      <DependentUpon>Apostar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinPartida_G.resx">
+      <DependentUpon>FinPartida_G.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinPartida_P.resx">
+      <DependentUpon>FinPartida_P.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Juego_Baraja.resx">
+      <DependentUpon>Juego_Baraja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="BlackJack_TemporaryKey.pfx" />
+    <None Include="Properties\DataSources\Biblioteca_Cartas.Clases.Baraja.datasource" />
+    <None Include="Properties\DataSources\Biblioteca_Cartas.Clases.Carta.datasource" />
+    <None Include="Properties\DataSources\Biblioteca_Cartas.Clases.Castigo.datasource" />
+    <None Include="Properties\DataSources\Biblioteca_Cartas.Clases.Juego.datasource" />
+    <None Include="Properties\DataSources\Biblioteca_Cartas.Clases.Jugador.datasource" />
+    <None Include="Properties\DataSources\Biblioteca_Cartas.Clases.Premio.datasource" />
+    <None Include="Properties\DataSources\Biblioteca_Cartas.Clases.Resto.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inicio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_juego.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perfil-de-usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fin_juagada.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\REGLAS.png" />
+    <None Include="Resources\TABLERO %282%29.png" />
+    <None Include="Resources\TABLEROJUEGO.png" />
+    <None Include="Resources\VILLANO.png" />
+    <None Include="Resources\TABLERO.png" />
+    <None Include="Resources\PARTIDA PERDIDA.png" />
+    <None Include="Resources\PARTIDA GANADA.png" />
+    <None Include="Resources\BIENVENIDO A 21.png" />
+    <None Include="Resources\BIENVENIDO A 21 %281%29.png" />
+    <None Include="Resources\BIENVENIDO A 211.png" />
+    <None Include="Resources\HEROE.png" />
+    <Content Include="LOGO.ico" />
+    <Content Include="LOGO_BE.ico" />
+    <Content Include="Resources\parteTrasera1.png" />
+    <None Include="Resources\parteTrasera11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8.1 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
