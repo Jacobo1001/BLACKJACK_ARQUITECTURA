@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Biblioteca_Cartas.Servicios;
 
 namespace Biblioteca_Cartas.Clases
 {
@@ -10,23 +8,24 @@ namespace Biblioteca_Cartas.Clases
     {
         public List<Carta> cartas_restantes;
         public Carta c_sacada;
+        private readonly IMezclaCartasService mezclaService;
+        private readonly IExtraccionCartaService extraccionService;
 
-        public Resto(List<Baraja> cartas_Baraja, List<Premio> cartas_Premio, List<Castigo> cartas_Castigo)
+        public Resto(List<Baraja> cartas_Baraja, List<Premio> cartas_Premio, List<Castigo> cartas_Castigo,
+            IMezclaCartasService mezclaService,
+            IExtraccionCartaService extraccionService)
         {
-            this.cartas_restantes = new List<Carta>(cartas_Baraja);
-            this.cartas_restantes.AddRange(cartas_Premio);
-            this.cartas_restantes.AddRange(cartas_Castigo);
-
-            Carta[] crt_rest_arr = cartas_restantes.ToArray();
-            Random rnd = new Random();
-            Array.Sort(crt_rest_arr, (a, b) => rnd.Next(-1, 2));
-            cartas_restantes = new List<Carta>(crt_rest_arr);
+            this.mezclaService = mezclaService;
+            this.extraccionService = extraccionService;
+            var todasCartas = new List<Carta>(cartas_Baraja);
+            todasCartas.AddRange(cartas_Premio);
+            todasCartas.AddRange(cartas_Castigo);
+            cartas_restantes = mezclaService.MezclarCartas(todasCartas);
         }
 
         public Carta Sacar_carta()
         {
-            c_sacada = cartas_restantes[0];
-            cartas_restantes.RemoveAt(0);
+            c_sacada = extraccionService.SacarCarta(cartas_restantes);
             return c_sacada;
         }
     }

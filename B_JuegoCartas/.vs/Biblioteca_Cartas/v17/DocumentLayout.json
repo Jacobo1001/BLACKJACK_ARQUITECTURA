@@ -1,12 +1,429 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\biblioteca_cartas\\clases\\juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|solutionrelative:biblioteca_cartas\\clases\\juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\biblioteca_cartas\\clases\\baraja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|solutionrelative:biblioteca_cartas\\clases\\baraja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\biblioteca_cartas\\clases\\resto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|solutionrelative:biblioteca_cartas\\clases\\resto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|c:\\users\\jacob\\desktop\\solid\\b_juegocartas\\biblioteca_cartas\\servicios\\icomodinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|solutionrelative:biblioteca_cartas\\servicios\\icomodinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\biblioteca_cartas\\clases\\castigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|solutionrelative:biblioteca_cartas\\clases\\castigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\biblioteca_cartas\\clases\\premio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|solutionrelative:biblioteca_cartas\\clases\\premio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\biblioteca_cartas\\clases\\carta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|solutionrelative:biblioteca_cartas\\clases\\carta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\biblioteca_cartas\\servicios\\cartascomodinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|solutionrelative:biblioteca_cartas\\servicios\\cartascomodinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\biblioteca_cartas\\servicios\\iapuestaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|solutionrelative:biblioteca_cartas\\servicios\\iapuestaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\biblioteca_cartas\\servicios\\icartaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|solutionrelative:biblioteca_cartas\\servicios\\icartaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\biblioteca_cartas\\servicios\\ipartidaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|solutionrelative:biblioteca_cartas\\servicios\\ipartidaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\biblioteca_cartas\\servicios\\apuestaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|solutionrelative:biblioteca_cartas\\servicios\\apuestaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\biblioteca_cartas\\servicios\\cartaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|solutionrelative:biblioteca_cartas\\servicios\\cartaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\biblioteca_cartas\\servicios\\partidaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|solutionrelative:biblioteca_cartas\\servicios\\partidaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\biblioteca_cartas\\servicios\\creacioncartasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|solutionrelative:biblioteca_cartas\\servicios\\creacioncartasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\biblioteca_cartas\\servicios\\iascontrolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|solutionrelative:biblioteca_cartas\\servicios\\iascontrolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\biblioteca_cartas\\servicios\\ascontrolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|solutionrelative:biblioteca_cartas\\servicios\\ascontrolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\biblioteca_cartas\\servicios\\comodinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|solutionrelative:biblioteca_cartas\\servicios\\comodinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\biblioteca_cartas\\servicios\\icreacioncartasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|solutionrelative:biblioteca_cartas\\servicios\\icreacioncartasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\biblioteca_cartas\\servicios\\imezclacartasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|solutionrelative:biblioteca_cartas\\servicios\\imezclacartasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\biblioteca_cartas\\servicios\\mezclacartasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|solutionrelative:biblioteca_cartas\\servicios\\mezclacartasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\biblioteca_cartas\\servicios\\iextraccioncartaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|solutionrelative:biblioteca_cartas\\servicios\\iextraccioncartaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\biblioteca_cartas\\servicios\\extraccioncartaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55F10BE3-5F20-4FC2-B902-CE3E9261504B}|Biblioteca_Cartas\\Biblioteca_Cartas.csproj|solutionrelative:biblioteca_cartas\\servicios\\extraccioncartaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Eventos\\PublisherValorCarta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Biblioteca_Cartas\\Eventos\\PublisherValorCarta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Eventos\\PublisherCreacionCartas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Biblioteca_Cartas\\Eventos\\PublisherCreacionCartas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Juego.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Clases\\Juego.cs",
+              "RelativeDocumentMoniker": "Biblioteca_Cartas\\Clases\\Juego.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Clases\\Juego.cs",
+              "RelativeToolTip": "Biblioteca_Cartas\\Clases\\Juego.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T18:17:40.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Resto.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Clases\\Resto.cs",
+              "RelativeDocumentMoniker": "Biblioteca_Cartas\\Clases\\Resto.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Clases\\Resto.cs",
+              "RelativeToolTip": "Biblioteca_Cartas\\Clases\\Resto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T20:12:34.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Premio.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Clases\\Premio.cs",
+              "RelativeDocumentMoniker": "Biblioteca_Cartas\\Clases\\Premio.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Clases\\Premio.cs",
+              "RelativeToolTip": "Biblioteca_Cartas\\Clases\\Premio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T20:16:06.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IComodinService.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\IComodinService.cs",
+              "RelativeDocumentMoniker": "Biblioteca_Cartas\\Servicios\\IComodinService.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\IComodinService.cs",
+              "RelativeToolTip": "Biblioteca_Cartas\\Servicios\\IComodinService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T19:49:02.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MezclaCartasService.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\MezclaCartasService.cs",
+              "RelativeDocumentMoniker": "Biblioteca_Cartas\\Servicios\\MezclaCartasService.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\MezclaCartasService.cs",
+              "RelativeToolTip": "Biblioteca_Cartas\\Servicios\\MezclaCartasService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T20:18:31.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IMezclaCartasService.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\IMezclaCartasService.cs",
+              "RelativeDocumentMoniker": "Biblioteca_Cartas\\Servicios\\IMezclaCartasService.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\IMezclaCartasService.cs",
+              "RelativeToolTip": "Biblioteca_Cartas\\Servicios\\IMezclaCartasService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T20:18:26.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IExtraccionCartaService.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\IExtraccionCartaService.cs",
+              "RelativeDocumentMoniker": "Biblioteca_Cartas\\Servicios\\IExtraccionCartaService.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\IExtraccionCartaService.cs",
+              "RelativeToolTip": "Biblioteca_Cartas\\Servicios\\IExtraccionCartaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T20:18:37.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Baraja.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Clases\\Baraja.cs",
+              "RelativeDocumentMoniker": "Biblioteca_Cartas\\Clases\\Baraja.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Clases\\Baraja.cs",
+              "RelativeToolTip": "Biblioteca_Cartas\\Clases\\Baraja.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T20:08:48.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Castigo.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Clases\\Castigo.cs",
+              "RelativeDocumentMoniker": "Biblioteca_Cartas\\Clases\\Castigo.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Clases\\Castigo.cs",
+              "RelativeToolTip": "Biblioteca_Cartas\\Clases\\Castigo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T20:20:52.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ExtraccionCartaService.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\ExtraccionCartaService.cs",
+              "RelativeDocumentMoniker": "Biblioteca_Cartas\\Servicios\\ExtraccionCartaService.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\ExtraccionCartaService.cs",
+              "RelativeToolTip": "Biblioteca_Cartas\\Servicios\\ExtraccionCartaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T20:18:42.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Carta.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Clases\\Carta.cs",
+              "RelativeDocumentMoniker": "Biblioteca_Cartas\\Clases\\Carta.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Clases\\Carta.cs",
+              "RelativeToolTip": "Biblioteca_Cartas\\Clases\\Carta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T20:16:06.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartasComodinService.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\CartasComodinService.cs",
+              "RelativeDocumentMoniker": "Biblioteca_Cartas\\Servicios\\CartasComodinService.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\CartasComodinService.cs",
+              "RelativeToolTip": "Biblioteca_Cartas\\Servicios\\CartasComodinService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T20:02:39.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PublisherValorCarta.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Eventos\\PublisherValorCarta.cs",
+              "RelativeDocumentMoniker": "Biblioteca_Cartas\\Eventos\\PublisherValorCarta.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Eventos\\PublisherValorCarta.cs",
+              "RelativeToolTip": "Biblioteca_Cartas\\Eventos\\PublisherValorCarta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T20:01:59.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PublisherCreacionCartas.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Eventos\\PublisherCreacionCartas.cs",
+              "RelativeDocumentMoniker": "Biblioteca_Cartas\\Eventos\\PublisherCreacionCartas.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Eventos\\PublisherCreacionCartas.cs",
+              "RelativeToolTip": "Biblioteca_Cartas\\Eventos\\PublisherCreacionCartas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T19:57:51.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IApuestaService.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\IApuestaService.cs",
+              "RelativeDocumentMoniker": "Biblioteca_Cartas\\Servicios\\IApuestaService.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\IApuestaService.cs",
+              "RelativeToolTip": "Biblioteca_Cartas\\Servicios\\IApuestaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T19:46:24.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PartidaService.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\PartidaService.cs",
+              "RelativeDocumentMoniker": "Biblioteca_Cartas\\Servicios\\PartidaService.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\PartidaService.cs",
+              "RelativeToolTip": "Biblioteca_Cartas\\Servicios\\PartidaService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAMBdwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T19:46:53.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreacionCartasService.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\CreacionCartasService.cs",
+              "RelativeDocumentMoniker": "Biblioteca_Cartas\\Servicios\\CreacionCartasService.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\CreacionCartasService.cs",
+              "RelativeToolTip": "Biblioteca_Cartas\\Servicios\\CreacionCartasService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAABRwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T19:49:01.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CartaService.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\CartaService.cs",
+              "RelativeDocumentMoniker": "Biblioteca_Cartas\\Servicios\\CartaService.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\CartaService.cs",
+              "RelativeToolTip": "Biblioteca_Cartas\\Servicios\\CartaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T19:46:49.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApuestaService.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\ApuestaService.cs",
+              "RelativeDocumentMoniker": "Biblioteca_Cartas\\Servicios\\ApuestaService.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\ApuestaService.cs",
+              "RelativeToolTip": "Biblioteca_Cartas\\Servicios\\ApuestaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T19:46:44.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IPartidaService.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\IPartidaService.cs",
+              "RelativeDocumentMoniker": "Biblioteca_Cartas\\Servicios\\IPartidaService.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\IPartidaService.cs",
+              "RelativeToolTip": "Biblioteca_Cartas\\Servicios\\IPartidaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T19:46:40.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICartaService.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\ICartaService.cs",
+              "RelativeDocumentMoniker": "Biblioteca_Cartas\\Servicios\\ICartaService.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\ICartaService.cs",
+              "RelativeToolTip": "Biblioteca_Cartas\\Servicios\\ICartaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T19:46:36.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ICreacionCartasService.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\ICreacionCartasService.cs",
+              "RelativeDocumentMoniker": "Biblioteca_Cartas\\Servicios\\ICreacionCartasService.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\ICreacionCartasService.cs",
+              "RelativeToolTip": "Biblioteca_Cartas\\Servicios\\ICreacionCartasService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T19:49:03.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ComodinService.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\ComodinService.cs",
+              "RelativeDocumentMoniker": "Biblioteca_Cartas\\Servicios\\ComodinService.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\ComodinService.cs",
+              "RelativeToolTip": "Biblioteca_Cartas\\Servicios\\ComodinService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T19:49:02.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ASControlService.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\ASControlService.cs",
+              "RelativeDocumentMoniker": "Biblioteca_Cartas\\Servicios\\ASControlService.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\ASControlService.cs",
+              "RelativeToolTip": "Biblioteca_Cartas\\Servicios\\ASControlService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T19:49:02.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IASControlService.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\IASControlService.cs",
+              "RelativeDocumentMoniker": "Biblioteca_Cartas\\Servicios\\IASControlService.cs",
+              "ToolTip": "C:\\Users\\jacob\\Desktop\\SOLID\\B_JuegoCartas\\Biblioteca_Cartas\\Servicios\\IASControlService.cs",
+              "RelativeToolTip": "Biblioteca_Cartas\\Servicios\\IASControlService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T19:49:01.807Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

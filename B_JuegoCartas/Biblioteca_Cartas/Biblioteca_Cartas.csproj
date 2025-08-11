@@ -49,11 +49,25 @@
     <Compile Include="Clases\Jugador.cs" />
     <Compile Include="Clases\Premio.cs" />
     <Compile Include="Clases\Resto.cs" />
-    <Compile Include="Eventos\PublisherCartasComodin.cs" />
-    <Compile Include="Eventos\PublisherCreacionCartas.cs" />
-    <Compile Include="Eventos\PublisherFinalPartida.cs" />
-    <Compile Include="Eventos\PublisherValorCarta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Servicios\ApuestaService.cs" />
+    <Compile Include="Servicios\ASControlService.cs" />
+    <Compile Include="Servicios\CartasComodinService.cs" />
+    <Compile Include="Servicios\CartaService.cs" />
+    <Compile Include="Servicios\ComodinService.cs" />
+    <Compile Include="Servicios\CreacionCartasService.cs" />
+    <Compile Include="Servicios\ExtraccionCartaService.cs" />
+    <Compile Include="Servicios\IApuestaService.cs" />
+    <Compile Include="Servicios\IASControlService.cs" />
+    <Compile Include="Servicios\ICartaService.cs" />
+    <Compile Include="Servicios\IComodinService.cs" />
+    <Compile Include="Servicios\ICreacionCartasService.cs" />
+    <Compile Include="Servicios\IExtraccionCartaService.cs" />
+    <Compile Include="Servicios\IMezclaCartasService.cs" />
+    <Compile Include="Servicios\IPartidaService.cs" />
+    <Compile Include="Servicios\MezclaCartasService.cs" />
+    <Compile Include="Servicios\PartidaService.cs" />
+    <Compile Include="Servicios\ValorCartaService.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

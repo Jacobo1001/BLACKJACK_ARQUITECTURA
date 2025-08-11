@@ -1,0 +1,48 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Bb]in/
+[Oo]bj/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+
+# Rider
+.idea/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Test results
+TestResults/
+*.TestResult.xml
+
+# Logs and temp files
+*.log
+*.tmp
+*.cache
+*.dbmdl
+
+# Publish
+publish/
+*.Publish.xml
+
+# VS Code
+.vscode/
+
+# Otros archivos generados
+*.vsidx

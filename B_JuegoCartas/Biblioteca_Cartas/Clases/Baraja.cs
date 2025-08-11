@@ -1,28 +1,18 @@
-﻿using Biblioteca_Cartas.Eventos;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using Biblioteca_Cartas.Servicios;
 
 namespace Biblioteca_Cartas.Clases
 {
     public class Baraja : Carta
     {
-        internal PublisherValorCarta ValorCarta { get; }
         public List<Baraja> BarajaJuego { get; }
-
-        internal void EventHandler()
+        public Baraja(string descripcion, IValorCartaService valorCartaService) : base(0, 0, descripcion)
         {
-        }
-
-        public Baraja(string descripcion) : base(0, 0, descripcion)
-        {
+            if (descripcion == null)
+                throw new ArgumentNullException(nameof(descripcion), "La carta no tiene ningún valor.");
             BarajaJuego = new List<Baraja>();
-
-            ValorCarta = (descripcion == null)
-                ? throw new ArgumentNullException(nameof(descripcion), "La carta no tiene ningún valor.")
-                : new PublisherValorCarta();
-
-            ValorCarta.evt_carta += EventHandler;
-            Punto_carta = ValorCarta.Dar_Valor_Carta(descripcion);
+            Punto_carta = valorCartaService.DarValorCarta(descripcion);
         }
     }
 }
