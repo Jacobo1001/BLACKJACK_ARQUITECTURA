@@ -7,111 +7,90 @@ namespace Biblioteca_Cartas.Clases
 {
     public class Juego
     {
-        private readonly IApuestaService apuestaService;
-        private readonly ICartaService cartaService;
-        private readonly IPartidaService partidaService;
-        private readonly IASControlService asControlService;
-        private readonly IComodinService comodinService;
-        private readonly ICreacionCartasService creacionCartasService;
-        private readonly IMezclaCartasService mezclaCartasService;
-        private readonly IExtraccionCartaService extraccionCartaService;
+        private readonly IApuestaService apuestaServicio;
+        private readonly ICartaService cartasServicio;
+        private readonly IPartidaService partidaServicio;
+        private readonly IASControlService controlAsServicio;
+        private readonly IComodinService comodinServicio;
+        private readonly IinicializacionJuegoServicio inicializacionJuegoServicio;
 
-        internal List<Premio> cartas_Premio = new List<Premio>();
-        internal List<Castigo> cartas_Castigo = new List<Castigo>();
-        public List<Baraja> cartas_Baraja = new List<Baraja>();
-        public Resto Cartas_res;
-        public Jugador j1;
-        public Jugador maquina;
-
-        public int contador_PGenerales;
-        public int cant_apostada;
+        private List<Premio> cartasPremio;
+        private List<Castigo> cartasCastigo;
+        private List<Baraja> cartasBaraja;
+        private Resto resto;
+        private Jugador jugador;
+        private Jugador maquina;
+        private int saldo;
 
         public Juego(
-            int contador_PGenerales,
-            string NikeName,
-            IApuestaService apuestaService,
-            ICartaService cartaService,
-            IPartidaService partidaService,
-            IASControlService asControlService,
-            IComodinService comodinService,
-            ICreacionCartasService creacionCartasService,
-            IMezclaCartasService mezclaCartasService,
-            IExtraccionCartaService extraccionCartaService)
+            int saldoInicial,
+            string apodoJugador,
+            IApuestaService apuestaServicio,
+            ICartaService cartasServicio,
+            IPartidaService partidaServicio,
+            IASControlService controlAsServicio,
+            IComodinService comodinServicio,
+            IinicializacionJuegoServicio inicializacionJuegoServicio)
         {
-            this.apuestaService = apuestaService;
-            this.cartaService = cartaService;
-            this.partidaService = partidaService;
-            this.asControlService = asControlService;
-            this.comodinService = comodinService;
-            this.creacionCartasService = creacionCartasService;
-            this.mezclaCartasService = mezclaCartasService;
-            this.extraccionCartaService = extraccionCartaService;
+            this.apuestaServicio = apuestaServicio;
+            this.cartasServicio = cartasServicio;
+            this.partidaServicio = partidaServicio;
+            this.controlAsServicio = controlAsServicio;
+            this.comodinServicio = comodinServicio;
+            this.inicializacionJuegoServicio = inicializacionJuegoServicio;
+            this.saldo = saldoInicial;
 
-            this.contador_PGenerales = contador_PGenerales;
+            InicializarJuego(apodoJugador);
+        }
 
-            creacionCartasService.CreacionCartas(cartas_Baraja, cartas_Castigo, cartas_Premio);
-
-            Cartas_res = new Resto(cartas_Baraja, cartas_Premio, cartas_Castigo, mezclaCartasService, extraccionCartaService);
-
-            j1 = new Jugador(NikeName);
-            maquina = new Jugador("Maquina");
-
-            cartaService.EntregarCartas(j1, Cartas_res, 2);
-            cartaService.EntregarCartas(maquina, Cartas_res, 2);
-
-            asControlService.ControlAS(j1.cartas_jugador);
-            asControlService.ControlAS(maquina.cartas_jugador);
-            comodinService.ComodinMaquina(maquina.cartas_jugador, Cartas_res);
-
-            Apostar(cant_apostada);
+        private void InicializarJuego(string apodoJugador)
+        {
+            (cartasBaraja, cartasCastigo, cartasPremio, resto, jugador, maquina) = inicializacionJuegoServicio.Inicializar(apodoJugador);
         }
 
         public string Apostar(int cantidadApostada)
         {
             int saldoFinal;
-            var resultado = apuestaService.Apostar(contador_PGenerales, cantidadApostada, out saldoFinal);
-            contador_PGenerales = saldoFinal;
+            var resultado = apuestaServicio.Apostar(saldo, cantidadApostada, out saldoFinal);
+            saldo = saldoFinal;
             return resultado;
         }
 
-        public int ObtenerSaldo()
+        public int ObtenerSaldo() => saldo;
+
+        public void EntregarCartaAJugador(bool esJugador)
         {
-            return contador_PGenerales;
+            cartasServicio.EntregarCarta(esJugador ? jugador : maquina, resto);
         }
 
-        public void EntregarCartaAJugador(bool aJugador)
-        {
-            cartaService.EntregarCarta(aJugador ? j1 : maquina, Cartas_res);
-        }
-
-        public void Pedir_CMaquina()
+        public void PedirCartasMaquina()
         {
             for (int i = 0; i < 2; i++)
             {
-                int sumatoria = maquina.cartas_jugador.Sum(carta => carta.Punto_carta);
-                if (sumatoria <= 15)
+                int suma = maquina.cartas_jugador.Sum(c => c.Punto_carta);
+                if (suma <= 15)
                 {
-                    cartaService.EntregarCarta(maquina, Cartas_res);
-                    asControlService.ControlAS(maquina.cartas_jugador);
-                    comodinService.ComodinMaquina(maquina.cartas_jugador, Cartas_res);
+                    cartasServicio.EntregarCarta(maquina, resto);
+                    controlAsServicio.ControlAS(maquina.cartas_jugador);
+                    comodinServicio.ComodinMaquina(maquina.cartas_jugador, resto);
                 }
             }
         }
 
-        public void Jugar(bool plantarse, int cant_apostada)
+        public void Jugar(bool plantarse, int cantidadApostada)
         {
             if (plantarse)
             {
-                int resultado = partidaService.CalcularResultado(j1.cartas_jugador, maquina.cartas_jugador);
+                int resultado = partidaServicio.CalcularResultado(jugador.cartas_jugador, maquina.cartas_jugador);
                 if (resultado == 1)
-                    contador_PGenerales += (cant_apostada * 2);
+                    saldo += (cantidadApostada * 2);
                 else if (resultado == 0)
-                    contador_PGenerales += cant_apostada;
+                    saldo += cantidadApostada;
                 // Si pierde, no suma nada
             }
             else
             {
-                cartaService.EntregarCarta(j1, Cartas_res);
+                cartasServicio.EntregarCarta(jugador, resto);
             }
         }
     }

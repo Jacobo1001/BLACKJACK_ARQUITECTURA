@@ -63,7 +63,10 @@
     <Compile Include="Servicios\IComodinService.cs" />
     <Compile Include="Servicios\ICreacionCartasService.cs" />
     <Compile Include="Servicios\IExtraccionCartaService.cs" />
+    <Compile Include="Servicios\IinicializacionJuegoServicio.cs" />
+    <Compile Include="Servicios\IJuegoSetupService.cs" />
     <Compile Include="Servicios\IMezclaCartasService.cs" />
+    <Compile Include="Servicios\InicializacionJuegoServicio.cs" />
     <Compile Include="Servicios\IPartidaService.cs" />
     <Compile Include="Servicios\MezclaCartasService.cs" />
     <Compile Include="Servicios\PartidaService.cs" />
